@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://plus.unsplash.com/premium_photo-1673603988651-99f79e4ae7d3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlciUyMGFwcHxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(100, 0, 0);
+  margin-bottom: 20px;
+  font-size: 5rem;
+  letter-spacing: 1px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 200px;
+  border: 2px solid black;
+}
+
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #1e1e1e;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+.weather-info {
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+
+  color: rgb(21, 20, 20);
+  text-align: center;
+  position: relative;
+  left: 12%;
+  border: 3px solid black;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0);
+  transition: transform 1s ease;
+}
+
+.weather-info:hover {
+  transform: translateY(-5px);
+}

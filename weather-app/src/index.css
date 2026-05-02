@@ -1,0 +1,24 @@
+.app {
+  text-align: center;
+  font-family: Arial;
+  margin-top: 50px;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.weather-info {
+  margin-top: 30px;
+}
